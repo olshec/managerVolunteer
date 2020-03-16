@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_0HjXYGcmEequ5o011R_YtA" name="диаграмма вариантов использования">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_0VLjsGcmEequ5o011R_YtA">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_49gu0GcoEeqib-m6yY3ufw" name="Организатор"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_72WkMGcoEeqib-m6yY3ufw" name="Куратор"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_OFM6QGcpEeqib-m6yY3ufw" name="Редактировать информацию о событии">
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_SBbn0GdAEeqXgsPgnHdfUQ" name="ExtensionPoint1"/>
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_UZMwcGdAEeqXgsPgnHdfUQ" name="ExtensionPoint2"/>
+    <include xmi:type="uml:Include" xmi:id="_RVJesGdCEeqXgsPgnHdfUQ" addition="_OvTd0GdCEeqXgsPgnHdfUQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_fJgv0GcpEeqib-m6yY3ufw"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_DAXeYGcqEeqib-m6yY3ufw" name="Волонтер"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_EtHUEGcqEeqib-m6yY3ufw" name="Просмотр расписания">
+    <include xmi:type="uml:Include" xmi:id="_X8x6AGdCEeqXgsPgnHdfUQ" addition="_TegX4GdCEeqXgsPgnHdfUQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_lHWx0GcqEeqib-m6yY3ufw" name="Создать событие">
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_ZUqxcGcrEeqib-m6yY3ufw" name="ExtensionPoint1"/>
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_fzdZ0GcrEeqib-m6yY3ufw" name="ExtensionPoint2"/>
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_kwpFgGcrEeqib-m6yY3ufw" name="ExtensionPoint3"/>
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_Yk-kcGcsEeqib-m6yY3ufw" name="ExtensionPoint4"/>
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_y9V_UGcsEeqib-m6yY3ufw" name="ExtensionPoint5"/>
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_QXYbcGctEeqib-m6yY3ufw" name="ExtensionPoint6"/>
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_A1NTwGc9EeqXgsPgnHdfUQ" name="ExtensionPoint7"/>
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_QCEDAGc-EeqXgsPgnHdfUQ" name="ExtensionPoint8"/>
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_WvSwAGc-EeqXgsPgnHdfUQ" name="ExtensionPoint9"/>
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_U_5ZgGc_EeqXgsPgnHdfUQ" name="ExtensionPoint10"/>
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_8L5e8Gc_EeqXgsPgnHdfUQ" name="ExtensionPoint11"/>
+    <include xmi:type="uml:Include" xmi:id="_Iq6ScGdCEeqXgsPgnHdfUQ" addition="_6E4dMGdBEeqXgsPgnHdfUQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_dnU5cGcrEeqib-m6yY3ufw" name="CRUD документ">
+    <extend xmi:type="uml:Extend" xmi:id="_fzcLsGcrEeqib-m6yY3ufw" extendedCase="_lHWx0GcqEeqib-m6yY3ufw" extensionLocation="_fzdZ0GcrEeqib-m6yY3ufw"/>
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_t7d2UGcrEeqib-m6yY3ufw" name="ExtensionPoint2"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_ivLkEGcrEeqib-m6yY3ufw" name="Редактировать список волонтеров">
+    <extend xmi:type="uml:Extend" xmi:id="_wutKQGc8EeqXgsPgnHdfUQ" extendedCase="_rqhesGc8EeqXgsPgnHdfUQ" extensionLocation="_wuu_cGc8EeqXgsPgnHdfUQ"/>
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_uq8LcGcrEeqib-m6yY3ufw" name="ExtensionPoint2"/>
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_V2bgQGc8EeqXgsPgnHdfUQ" name="ExtensionPoint3"/>
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_Wg0hEGc8EeqXgsPgnHdfUQ" name="ExtensionPoint4"/>
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_Xm9pwGc8EeqXgsPgnHdfUQ" name="ExtensionPoint5"/>
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_Q91kMGc9EeqXgsPgnHdfUQ" name="ExtensionPoint6"/>
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_aJ_KsGc9EeqXgsPgnHdfUQ" name="ExtensionPoint7"/>
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_kbKfkGc9EeqXgsPgnHdfUQ" name="ExtensionPoint8"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_6zcOUGcrEeqib-m6yY3ufw" name="Удалить событие">
+    <include xmi:type="uml:Include" xmi:id="_JmLA0GdCEeqXgsPgnHdfUQ" addition="_6E4dMGdBEeqXgsPgnHdfUQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_IeXGMGcsEeqib-m6yY3ufw" memberEnd="_Ieea8GcsEeqib-m6yY3ufw _IekhkGcsEeqib-m6yY3ufw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IebXoGcsEeqib-m6yY3ufw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Ieb-sGcsEeqib-m6yY3ufw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Ieea8GcsEeqib-m6yY3ufw" name="добавить событие" type="_lHWx0GcqEeqib-m6yY3ufw" association="_IeXGMGcsEeqib-m6yY3ufw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_IekhkGcsEeqib-m6yY3ufw" name="организатор" type="_49gu0GcoEeqib-m6yY3ufw" association="_IeXGMGcsEeqib-m6yY3ufw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_KEL0gGcsEeqib-m6yY3ufw" memberEnd="_KEU-cmcsEeqib-m6yY3ufw _KEVlgGcsEeqib-m6yY3ufw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_KEU-cGcsEeqib-m6yY3ufw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_KEU-cWcsEeqib-m6yY3ufw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_KEU-cmcsEeqib-m6yY3ufw" name="удалить событие" type="_6zcOUGcrEeqib-m6yY3ufw" association="_KEL0gGcsEeqib-m6yY3ufw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_KEVlgGcsEeqib-m6yY3ufw" name="организатор" type="_49gu0GcoEeqib-m6yY3ufw" association="_KEL0gGcsEeqib-m6yY3ufw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_Vo84MGcsEeqib-m6yY3ufw" name="CRUD каталог">
+    <extend xmi:type="uml:Extend" xmi:id="_8L4Q0Gc_EeqXgsPgnHdfUQ" extendedCase="_lHWx0GcqEeqib-m6yY3ufw" extensionLocation="_8L5e8Gc_EeqXgsPgnHdfUQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_C6qZ0Gc8EeqXgsPgnHdfUQ" name="CRUD пользователя">
+    <extend xmi:type="uml:Extend" xmi:id="_jk5l8Gc9EeqXgsPgnHdfUQ" extendedCase="_cdFrMGc8EeqXgsPgnHdfUQ" extensionLocation="_jk60EGc9EeqXgsPgnHdfUQ"/>
+    <extend xmi:type="uml:Extend" xmi:id="_kbJRcGc9EeqXgsPgnHdfUQ" extendedCase="_ivLkEGcrEeqib-m6yY3ufw" extensionLocation="_kbKfkGc9EeqXgsPgnHdfUQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_cdFrMGc8EeqXgsPgnHdfUQ" name="Редактировать список кураторов">
+    <extend xmi:type="uml:Extend" xmi:id="_xg_i0Gc8EeqXgsPgnHdfUQ" extendedCase="_rqhesGc8EeqXgsPgnHdfUQ" extensionLocation="_xhBYAGc8EeqXgsPgnHdfUQ"/>
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_FUm3QGc9EeqXgsPgnHdfUQ" name="ExtensionPoint2"/>
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_QK980Gc9EeqXgsPgnHdfUQ" name="ExtensionPoint3"/>
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_ZseIQGc9EeqXgsPgnHdfUQ" name="ExtensionPoint4"/>
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_jk60EGc9EeqXgsPgnHdfUQ" name="ExtensionPoint5"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_rqhesGc8EeqXgsPgnHdfUQ" name="Редактировать список участников">
+    <extend xmi:type="uml:Extend" xmi:id="_A1MFoGc9EeqXgsPgnHdfUQ" extendedCase="_lHWx0GcqEeqib-m6yY3ufw" extensionLocation="_A1NTwGc9EeqXgsPgnHdfUQ"/>
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_wuu_cGc8EeqXgsPgnHdfUQ" name="ExtensionPoint1"/>
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_xhBYAGc8EeqXgsPgnHdfUQ" name="ExtensionPoint2"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_FHX3EGc-EeqXgsPgnHdfUQ" name="CRUD расписание">
+    <extend xmi:type="uml:Extend" xmi:id="_WvRh4Gc-EeqXgsPgnHdfUQ" extendedCase="_lHWx0GcqEeqib-m6yY3ufw" extensionLocation="_WvSwAGc-EeqXgsPgnHdfUQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_dtOWAGc_EeqXgsPgnHdfUQ" name="CRUD документ события">
+    <extend xmi:type="uml:Extend" xmi:id="_SBbAwGdAEeqXgsPgnHdfUQ" extendedCase="_OFM6QGcpEeqib-m6yY3ufw" extensionLocation="_SBbn0GdAEeqXgsPgnHdfUQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_hLiP8Gc_EeqXgsPgnHdfUQ" name="CRUD каталог события">
+    <extend xmi:type="uml:Extend" xmi:id="_UZMJYGdAEeqXgsPgnHdfUQ" extendedCase="_OFM6QGcpEeqib-m6yY3ufw" extensionLocation="_UZMwcGdAEeqXgsPgnHdfUQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_CEfC8GdAEeqXgsPgnHdfUQ" name="Получить список событий">
+    <include xmi:type="uml:Include" xmi:id="_KaXd4GdCEeqXgsPgnHdfUQ" addition="_6E4dMGdBEeqXgsPgnHdfUQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_ItRU0GdAEeqXgsPgnHdfUQ" memberEnd="_ItXbcGdAEeqXgsPgnHdfUQ _ItYCgGdAEeqXgsPgnHdfUQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ItUYIGdAEeqXgsPgnHdfUQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ItU_MGdAEeqXgsPgnHdfUQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_ItXbcGdAEeqXgsPgnHdfUQ" name="получить список событий" type="_CEfC8GdAEeqXgsPgnHdfUQ" association="_ItRU0GdAEeqXgsPgnHdfUQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_ItYCgGdAEeqXgsPgnHdfUQ" name="организатор" type="_49gu0GcoEeqib-m6yY3ufw" association="_ItRU0GdAEeqXgsPgnHdfUQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_igIO4GdAEeqXgsPgnHdfUQ" name="Получить список волонтеров">
+    <include xmi:type="uml:Include" xmi:id="_SWF-UGdCEeqXgsPgnHdfUQ" addition="_OvTd0GdCEeqXgsPgnHdfUQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_qhy_QGdAEeqXgsPgnHdfUQ" memberEnd="_qh0NYWdAEeqXgsPgnHdfUQ _qh00cGdAEeqXgsPgnHdfUQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_qhzmUGdAEeqXgsPgnHdfUQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_qh0NYGdAEeqXgsPgnHdfUQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_qh0NYWdAEeqXgsPgnHdfUQ" name="получить список волонтеров" type="_igIO4GdAEeqXgsPgnHdfUQ" association="_qhy_QGdAEeqXgsPgnHdfUQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_qh00cGdAEeqXgsPgnHdfUQ" name="куратор" type="_72WkMGcoEeqib-m6yY3ufw" association="_qhy_QGdAEeqXgsPgnHdfUQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_wDo3MGdAEeqXgsPgnHdfUQ" name="Назначить задания волонтерам">
+    <include xmi:type="uml:Include" xmi:id="_R4VEQGdCEeqXgsPgnHdfUQ" addition="_OvTd0GdCEeqXgsPgnHdfUQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_20kYcGdAEeqXgsPgnHdfUQ" memberEnd="_20mNoGdAEeqXgsPgnHdfUQ _20mNoWdAEeqXgsPgnHdfUQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_20lmkGdAEeqXgsPgnHdfUQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_20lmkWdAEeqXgsPgnHdfUQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_20mNoGdAEeqXgsPgnHdfUQ" name="назначить задания волонтерам" type="_wDo3MGdAEeqXgsPgnHdfUQ" association="_20kYcGdAEeqXgsPgnHdfUQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_20mNoWdAEeqXgsPgnHdfUQ" type="_72WkMGcoEeqib-m6yY3ufw" association="_20kYcGdAEeqXgsPgnHdfUQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_awbi0GdBEeqXgsPgnHdfUQ" name="Просмотр задания">
+    <include xmi:type="uml:Include" xmi:id="_WVbhsGdCEeqXgsPgnHdfUQ" addition="_TegX4GdCEeqXgsPgnHdfUQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_edsewGdBEeqXgsPgnHdfUQ" name="Составление отчета">
+    <include xmi:type="uml:Include" xmi:id="_V6ZLgGdCEeqXgsPgnHdfUQ" addition="_TegX4GdCEeqXgsPgnHdfUQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_k6BB8GdBEeqXgsPgnHdfUQ" name="Просмотр событий">
+    <include xmi:type="uml:Include" xmi:id="_WtpNYGdCEeqXgsPgnHdfUQ" addition="_TegX4GdCEeqXgsPgnHdfUQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_pyoWsGdBEeqXgsPgnHdfUQ" memberEnd="_pyqL4GdBEeqXgsPgnHdfUQ _pyqy8GdBEeqXgsPgnHdfUQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_pyo9wGdBEeqXgsPgnHdfUQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_pypk0GdBEeqXgsPgnHdfUQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_pyqL4GdBEeqXgsPgnHdfUQ" name="просмотр расписания" type="_EtHUEGcqEeqib-m6yY3ufw" association="_pyoWsGdBEeqXgsPgnHdfUQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_pyqy8GdBEeqXgsPgnHdfUQ" name="волонтер" type="_DAXeYGcqEeqib-m6yY3ufw" association="_pyoWsGdBEeqXgsPgnHdfUQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_qTUB4GdBEeqXgsPgnHdfUQ" memberEnd="_qTVQAmdBEeqXgsPgnHdfUQ _qTV3EGdBEeqXgsPgnHdfUQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_qTVQAGdBEeqXgsPgnHdfUQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_qTVQAWdBEeqXgsPgnHdfUQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_qTVQAmdBEeqXgsPgnHdfUQ" name="просмотр событий" type="_k6BB8GdBEeqXgsPgnHdfUQ" association="_qTUB4GdBEeqXgsPgnHdfUQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_qTV3EGdBEeqXgsPgnHdfUQ" name="волонтер" type="_DAXeYGcqEeqib-m6yY3ufw" association="_qTUB4GdBEeqXgsPgnHdfUQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_zrvJ0GdBEeqXgsPgnHdfUQ" memberEnd="_zrxmEGdBEeqXgsPgnHdfUQ _zryNIGdBEeqXgsPgnHdfUQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_zrw_AGdBEeqXgsPgnHdfUQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_zrw_AWdBEeqXgsPgnHdfUQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_zrxmEGdBEeqXgsPgnHdfUQ" name="просмотр задания" type="_awbi0GdBEeqXgsPgnHdfUQ" association="_zrvJ0GdBEeqXgsPgnHdfUQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_zryNIGdBEeqXgsPgnHdfUQ" name="волонтер" type="_DAXeYGcqEeqib-m6yY3ufw" association="_zrvJ0GdBEeqXgsPgnHdfUQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_1_UWAGdBEeqXgsPgnHdfUQ" memberEnd="_1_VkIWdBEeqXgsPgnHdfUQ _1_VkImdBEeqXgsPgnHdfUQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_1_U9EGdBEeqXgsPgnHdfUQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_1_VkIGdBEeqXgsPgnHdfUQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_1_VkIWdBEeqXgsPgnHdfUQ" name="составление отчета" type="_edsewGdBEeqXgsPgnHdfUQ" association="_1_UWAGdBEeqXgsPgnHdfUQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_1_VkImdBEeqXgsPgnHdfUQ" name="волонтер" type="_DAXeYGcqEeqib-m6yY3ufw" association="_1_UWAGdBEeqXgsPgnHdfUQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_6E4dMGdBEeqXgsPgnHdfUQ" name="Авторизация"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_OvTd0GdCEeqXgsPgnHdfUQ" name="Авторизация"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_TegX4GdCEeqXgsPgnHdfUQ" name="Авторизация"/>
+</uml:Model>
