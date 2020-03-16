@@ -82,10 +82,10 @@
   <packagedElement xmi:type="uml:UseCase" xmi:id="_FHX3EGc-EeqXgsPgnHdfUQ" name="CRUD расписание">
     <extend xmi:type="uml:Extend" xmi:id="_WvRh4Gc-EeqXgsPgnHdfUQ" extendedCase="_lHWx0GcqEeqib-m6yY3ufw" extensionLocation="_WvSwAGc-EeqXgsPgnHdfUQ"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_dtOWAGc_EeqXgsPgnHdfUQ" name="CRUD документ события">
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_dtOWAGc_EeqXgsPgnHdfUQ" name="CRUD документ">
     <extend xmi:type="uml:Extend" xmi:id="_SBbAwGdAEeqXgsPgnHdfUQ" extendedCase="_OFM6QGcpEeqib-m6yY3ufw" extensionLocation="_SBbn0GdAEeqXgsPgnHdfUQ"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_hLiP8Gc_EeqXgsPgnHdfUQ" name="CRUD каталог события">
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_hLiP8Gc_EeqXgsPgnHdfUQ" name="CRUD каталог">
     <extend xmi:type="uml:Extend" xmi:id="_UZMJYGdAEeqXgsPgnHdfUQ" extendedCase="_OFM6QGcpEeqib-m6yY3ufw" extensionLocation="_UZMwcGdAEeqXgsPgnHdfUQ"/>
   </packagedElement>
   <packagedElement xmi:type="uml:UseCase" xmi:id="_CEfC8GdAEeqXgsPgnHdfUQ" name="Получить список событий">
@@ -158,4 +158,11 @@
   <packagedElement xmi:type="uml:UseCase" xmi:id="_6E4dMGdBEeqXgsPgnHdfUQ" name="Авторизация"/>
   <packagedElement xmi:type="uml:UseCase" xmi:id="_OvTd0GdCEeqXgsPgnHdfUQ" name="Авторизация"/>
   <packagedElement xmi:type="uml:UseCase" xmi:id="_TegX4GdCEeqXgsPgnHdfUQ" name="Авторизация"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_MoBYgGdTEeqvObklExNtwQ" memberEnd="_MoItQGdTEeqvObklExNtwQ _MoJ7YGdTEeqvObklExNtwQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_MoGRAGdTEeqvObklExNtwQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_MoG4EGdTEeqvObklExNtwQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_MoItQGdTEeqvObklExNtwQ" name="получить список волонтеров" type="_igIO4GdAEeqXgsPgnHdfUQ" association="_MoBYgGdTEeqvObklExNtwQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_MoJ7YGdTEeqvObklExNtwQ" name="организатор" type="_49gu0GcoEeqib-m6yY3ufw" association="_MoBYgGdTEeqvObklExNtwQ"/>
+  </packagedElement>
 </uml:Model>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_ttXzUGdUEeqvObklExNtwQ" name="диаграмма компонентов">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_twTykGdUEeqvObklExNtwQ">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Component" xmi:id="_wDsxgGdUEeqvObklExNtwQ" name="Главное приложение">
+    <packagedElement xmi:type="uml:Usage" xmi:id="_lFgBwGdYEeqvObklExNtwQ" client="_wDsxgGdUEeqvObklExNtwQ" supplier="_gQ7KYGdWEeqvObklExNtwQ"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_mAzMYGdYEeqvObklExNtwQ" client="_wDsxgGdUEeqvObklExNtwQ" supplier="_4wURcGdWEeqvObklExNtwQ"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_nAxboGdYEeqvObklExNtwQ" client="_wDsxgGdUEeqvObklExNtwQ" supplier="_7qBpgGdWEeqvObklExNtwQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Component" xmi:id="_-VWcwGdVEeqvObklExNtwQ" name="Авторизация">
+    <packagedElement xmi:type="uml:Usage" xmi:id="_IomG0GdZEeqvObklExNtwQ" client="_-VWcwGdVEeqvObklExNtwQ" supplier="_yawdkGdWEeqvObklExNtwQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Component" xmi:id="_yawdkGdWEeqvObklExNtwQ" name="База данных"/>
+  <packagedElement xmi:type="uml:Component" xmi:id="_gQ7KYGdWEeqvObklExNtwQ" name="Файловый менеджер"/>
+  <packagedElement xmi:type="uml:Component" xmi:id="_7qBpgGdWEeqvObklExNtwQ" name="Менеджер волонтеров">
+    <packagedElement xmi:type="uml:Usage" xmi:id="_DZCRsGdZEeqvObklExNtwQ" client="_7qBpgGdWEeqvObklExNtwQ" supplier="_-VWcwGdVEeqvObklExNtwQ"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_Fdv7cGdZEeqvObklExNtwQ" client="_7qBpgGdWEeqvObklExNtwQ" supplier="_yawdkGdWEeqvObklExNtwQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Component" xmi:id="_4wURcGdWEeqvObklExNtwQ" name="Менеджер событий">
+    <packagedElement xmi:type="uml:Usage" xmi:id="_35UGEGdYEeqvObklExNtwQ" client="_4wURcGdWEeqvObklExNtwQ" supplier="_-VWcwGdVEeqvObklExNtwQ"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_HWPuIGdZEeqvObklExNtwQ" client="_4wURcGdWEeqvObklExNtwQ" supplier="_yawdkGdWEeqvObklExNtwQ"/>
+  </packagedElement>
+</uml:Model>

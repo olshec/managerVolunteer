@@ -2,7 +2,7 @@
 <notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_0NZgsGcmEequ5o011R_YtA" type="UseCase" name="Use Case Diagram" measurementUnit="Pixel">
   <children xmi:type="notation:Shape" xmi:id="_4-ZfoGcoEeqib-m6yY3ufw" type="Actor_Shape">
     <children xmi:type="notation:DecorationNode" xmi:id="_4-dKAGcoEeqib-m6yY3ufw" type="Actor_NameLabel">
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_4-dKAWcoEeqib-m6yY3ufw" y="15"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_4-dKAWcoEeqib-m6yY3ufw" x="-80" y="60"/>
     </children>
     <children xmi:type="notation:DecorationNode" xmi:id="_4-eYIGcoEeqib-m6yY3ufw" type="Actor_StereotypeLabel">
       <layoutConstraint xmi:type="notation:Location" xmi:id="_4-eYIWcoEeqib-m6yY3ufw" x="20" y="100"/>
@@ -771,5 +771,18 @@
     <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_X924EmdCEeqXgsPgnHdfUQ" points="[355, 960, -643984, -643984]$[440, 1042, -643984, -643984]"/>
     <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_YATvIGdCEeqXgsPgnHdfUQ" id="(1.0,0.3333333333333333)"/>
     <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_YAUWMGdCEeqXgsPgnHdfUQ" id="(0.2857142857142857,0.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_MoQpEGdTEeqvObklExNtwQ" type="Association_Edge" source="_4-ZfoGcoEeqib-m6yY3ufw" target="_igNHYGdAEeqXgsPgnHdfUQ">
+    <children xmi:type="notation:DecorationNode" xmi:id="_MoRQIGdTEeqvObklExNtwQ" type="Association_NameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_MoR3MGdTEeqvObklExNtwQ" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_MoR3MWdTEeqvObklExNtwQ" type="Association_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_MoR3MmdTEeqvObklExNtwQ" y="-20"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_MoQpEWdTEeqvObklExNtwQ"/>
+    <element xmi:type="uml:Association" href="диаграмма%20вариантов%20использования.uml#_MoBYgGdTEeqvObklExNtwQ"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_MoQpEmdTEeqvObklExNtwQ" points="[0, 180, -643984, -643984]$[240, 643, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Mtu-8GdTEeqvObklExNtwQ" id="(1.0,0.8)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_MtwNEGdTEeqvObklExNtwQ" id="(0.2777777777777778,0.05)"/>
   </edges>
 </notation:Diagram>
