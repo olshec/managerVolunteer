@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_3d5agGgKEeqBUOJxUcAi8w" type="PapyrusUMLDeploymentDiagram" name="Deployment Diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_5S-s0GgKEeqBUOJxUcAi8w" type="Device_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_5TBwIGgKEeqBUOJxUcAi8w" type="Device_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_5TC-QGgKEeqBUOJxUcAi8w" type="Device_NestedNodeCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_PsmaMGgLEeqBUOJxUcAi8w" type="Node_Shape">
+        <children xmi:type="notation:DecorationNode" xmi:id="_PsnoUGgLEeqBUOJxUcAi8w" type="Node_NameLabel"/>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_PsnoUWgLEeqBUOJxUcAi8w" type="Node_NestedNodeCompartment">
+          <styles xmi:type="notation:TitleStyle" xmi:id="_PsnoUmgLEeqBUOJxUcAi8w"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PsnoU2gLEeqBUOJxUcAi8w"/>
+        </children>
+        <element xmi:type="uml:Node" href="Диаграмма%20развертывания.uml#_PsgTkGgLEeqBUOJxUcAi8w"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PsmaMWgLEeqBUOJxUcAi8w" x="15" y="122" width="201" height="81"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_6nj6IGgKEeqBUOJxUcAi8w" type="Node_Shape">
+        <children xmi:type="notation:DecorationNode" xmi:id="_6nlIQGgKEeqBUOJxUcAi8w" type="Node_NameLabel"/>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_6nmWYGgKEeqBUOJxUcAi8w" type="Node_NestedNodeCompartment">
+          <styles xmi:type="notation:TitleStyle" xmi:id="_6nmWYWgKEeqBUOJxUcAi8w"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6nmWYmgKEeqBUOJxUcAi8w"/>
+        </children>
+        <element xmi:type="uml:Node" href="Диаграмма%20развертывания.uml#_6mb4wGgKEeqBUOJxUcAi8w"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6nj6IWgKEeqBUOJxUcAi8w" x="35" y="22" height="81"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_5TC-QWgKEeqBUOJxUcAi8w"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5TC-QmgKEeqBUOJxUcAi8w"/>
+    </children>
+    <element xmi:type="uml:Device" href="Диаграмма%20развертывания.uml#_5StAAGgKEeqBUOJxUcAi8w"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5S_T4GgKEeqBUOJxUcAi8w" x="180" y="100" width="261" height="301"/>
+  </children>
+  <styles xmi:type="notation:StringValueStyle" xmi:id="_3d5agWgKEeqBUOJxUcAi8w" name="diagram_compatibility_version" stringValue="1.4.0"/>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_3d5agmgKEeqBUOJxUcAi8w"/>
+  <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_3d5ag2gKEeqBUOJxUcAi8w" diagramKindId="org.eclipse.papyrus.uml.diagram.deployment">
+    <owner xmi:type="uml:Model" href="Диаграмма%20развертывания.uml#_3cYXkGgKEeqBUOJxUcAi8w"/>
+  </styles>
+  <element xmi:type="uml:Model" href="Диаграмма%20развертывания.uml#_3cYXkGgKEeqBUOJxUcAi8w"/>
+</notation:Diagram>

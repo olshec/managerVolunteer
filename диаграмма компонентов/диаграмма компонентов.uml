@@ -14,6 +14,7 @@
   <packagedElement xmi:type="uml:Component" xmi:id="_yawdkGdWEeqvObklExNtwQ" name="База данных"/>
   <packagedElement xmi:type="uml:Component" xmi:id="_gQ7KYGdWEeqvObklExNtwQ" name="Файловый менеджер">
     <packagedElement xmi:type="uml:Usage" xmi:id="_MeRo0GdiEeqyJtEyXIUAaA" client="_gQ7KYGdWEeqvObklExNtwQ" supplier="_-VWcwGdVEeqvObklExNtwQ"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_pXMlkGgKEeqBUOJxUcAi8w" client="_gQ7KYGdWEeqvObklExNtwQ" supplier="_yawdkGdWEeqvObklExNtwQ"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Component" xmi:id="_7qBpgGdWEeqvObklExNtwQ" name="Менеджер волонтеров">
     <packagedElement xmi:type="uml:Usage" xmi:id="_DZCRsGdZEeqvObklExNtwQ" client="_7qBpgGdWEeqvObklExNtwQ" supplier="_-VWcwGdVEeqvObklExNtwQ"/>

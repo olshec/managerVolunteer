@@ -205,4 +205,17 @@
     <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_R1HxsGdiEeqyJtEyXIUAaA" id="(0.8433734939759037,1.0)"/>
     <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_R1IYwGdiEeqyJtEyXIUAaA" id="(0.12987012987012986,0.0)"/>
   </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_pizYoGgKEeqBUOJxUcAi8w" type="Usage_Edge" source="_gRLCAGdWEeqvObklExNtwQ" target="_ya2kMGdWEeqvObklExNtwQ">
+    <children xmi:type="notation:DecorationNode" xmi:id="_pjCCIGgKEeqBUOJxUcAi8w" type="Usage_NameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_pjCCIWgKEeqBUOJxUcAi8w" y="60"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_pjDQQGgKEeqBUOJxUcAi8w" type="Usage_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_pjDQQWgKEeqBUOJxUcAi8w" y="30"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_pizYoWgKEeqBUOJxUcAi8w"/>
+    <element xmi:type="uml:Usage" href="диаграмма%20компонентов.uml#_pXMlkGgKEeqBUOJxUcAi8w"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_pizYomgKEeqBUOJxUcAi8w" points="[409, 320, -643984, -643984]$[640, 260, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_pnUsQGgKEeqBUOJxUcAi8w" id="(1.0,0.2857142857142857)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_pnUsQWgKEeqBUOJxUcAi8w" id="(0.0,0.5714285714285714)"/>
+  </edges>
 </notation:Diagram>

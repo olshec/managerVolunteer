@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_BgnnMGgMEeqBUOJxUcAi8w" name="диаграмма классов">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_BjmCsGgMEeqBUOJxUcAi8w">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Class" xmi:id="_PDDuIGgwEeqN8uh52M0UYQ" name="User"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_QQS9UGgwEeqN8uh52M0UYQ" name="Organizer">
+    <generalization xmi:type="uml:Generalization" xmi:id="_O_CUUGgxEeqN8uh52M0UYQ" general="_PDDuIGgwEeqN8uh52M0UYQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Qn3IwGgwEeqN8uh52M0UYQ" name="Curator">
+    <generalization xmi:type="uml:Generalization" xmi:id="_NIrPoGgxEeqN8uh52M0UYQ" general="_PDDuIGgwEeqN8uh52M0UYQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Q9OUwGgwEeqN8uh52M0UYQ" name="Volonter">
+    <generalization xmi:type="uml:Generalization" xmi:id="_mC4f4GgwEeqN8uh52M0UYQ" general="_PDDuIGgwEeqN8uh52M0UYQ"/>
+  </packagedElement>
+</uml:Model>
